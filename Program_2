@@ -1,0 +1,18 @@
+void main() {
+  double num1 = 17.5;
+  double num2 = 3.0;
+
+  double addResult = add(num1, num2);
+  double subResult = subtract(num1, num2);
+
+  print("The sum of $num1 and $num2 is $addResult");
+  print("The difference between $num1 and $num2 is $subResult");
+}
+
+double add(double a, double b) {
+  return a + b;
+}
+
+double subtract(double a, double b) {
+  return a - b;
+}
