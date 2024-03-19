@@ -1,0 +1,10 @@
+void main() {
+  //defining the variables
+  String name = "Alexander";
+  int age = 23;
+  String school = "University of Nairobi";
+  String hobby = "Music";
+
+  print(
+      "My name is $name. I am $age years old and I attend $school. My hobby is $hobby.");
+}
